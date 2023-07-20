@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../font/icon-font/icomoon.eot?ux975z");
+  src: url("../font/icon-font/icomoon.eot?ux975z#iefix") format("embedded-opentype"), url("../font/icon-font/icomoon.woff2?ux975z") format("woff2"), url("../font/icon-font/icomoon.ttf?ux975z") format("truetype"), url("../font/icon-font/icomoon.woff?ux975z") format("woff"), url("../font/icon-font/icomoon.svg?ux975z#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-bottle:before {
+  content: "\e900"; }
+
+.icon-calander:before {
+  content: "\e901";
+  color: #606060; }
+
+.icon-call:before {
+  content: "\e902";
+  color: #606060; }
+
+.icon-charger:before {
+  content: "\e903"; }
+
+.icon-clock:before {
+  content: "\e904";
+  color: #606060; }
+
+.icon-cross:before {
+  content: "\e905";
+  color: #606060; }
+
+.icon-firstaid:before {
+  content: "\e906"; }
+
+.icon-icon-download:before {
+  content: "\e907";
+  color: #4372b8; }
+
+.icon-icon-minus:before {
+  content: "\e908";
+  color: #928f8f; }
+
+.icon-info:before {
+  content: "\e909";
+  color: #606060; }
+
+.icon-left-arrow:before {
+  content: "\e90a";
+  color: #606060; }
+
+.icon-linkedin:before {
+  content: "\e90b";
+  color: #606161; }
+
+.icon-location:before {
+  content: "\e90c";
+  color: #606060; }
+
+.icon-long-arrow:before {
+  content: "\e90d";
+  color: #606060; }
+
+.icon-luggage:before {
+  content: "\e90e"; }
+
+.icon-mail:before {
+  content: "\e90f";
+  color: #606161; }
+
+.icon-mute:before {
+  content: "\e910"; }
+
+.icon-newspaper:before {
+  content: "\e911"; }
+
+.icon-notification:before {
+  content: "\e912"; }
+
+.icon-pause:before {
+  content: "\e913"; }
+
+.icon-play:before {
+  content: "\e914";
+  color: #606060; }
+
+.icon-plus:before {
+  content: "\e915";
+  color: #606060; }
+
+.icon-right-arrow:before {
+  content: "\e916";
+  color: #606060; }
+
+.icon-skype:before {
+  content: "\e917";
+  color: #606161; }
+
+.icon-ss-airport:before {
+  content: "\e918";
+  color: #3a494e; }
+
+.icon-tick:before {
+  content: "\e919"; }
+
+.icon-toilet:before {
+  content: "\e91a"; }
+
+.icon-top-arrow:before {
+  content: "\e91b"; }
+
+.icon-unmute:before {
+  content: "\e91c"; }
+
+.icon-user:before {
+  content: "\e91d"; }
+
+.icon-whatsapp:before {
+  content: "\e91e";
+  color: #606161; }
+
+.icon-wifi:before {
+  content: "\e91f"; }
+
+/*=== Common CSS start Here ===*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px; }
+
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 28px; }
+
+p {
+  font-size: 20px; }
+
+a {
+  text-decoration: none; }
+
+ul,
+li {
+  list-style-type: none; }
+
+/*Padding CSS*/
+.first-padding {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.second-padding {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.third-padding {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.fourth-padding {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+/* Button CSS */
+.button {
+  padding: 13px 28px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  min-width: 150px;
+  text-align: center;
+  color: white;
+  transition: 0.4s; }
+  .button.primary-button {
+    background-color: #0fc500;
+    border: 2px solid #0fc500; }
+    .button.primary-button:hover {
+      background-color: white; }
+  .button.secondary-button {
+    background-color: #3479f2;
+    border: 2px solid #3479f2; }
+    .button.secondary-button:hover {
+      background-color: white; }
+
+/* === Common CSS start Here ===*/
+
+/*# sourceMappingURL=style.css.map */
