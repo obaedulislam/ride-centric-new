@@ -1,0 +1,177 @@
+$route: "../font/icon-font/";
+$fontCode: "ux975z";
+
+@font-face {
+    font-family: 'icomoon';
+    src: url($route + 'icomoon.eot?' + $fontCode);
+    src: url($route + 'icomoon.eot?' + $fontCode + '#iefix') format('embedded-opentype'),
+        url($route + 'icomoon.woff2?' + $fontCode) format('woff2'),
+        url($route + 'icomoon.ttf?' + $fontCode) format('truetype'),
+        url($route + 'icomoon.woff?' + $fontCode) format('woff'),
+        url($route  + 'icomoon.svg?' + $fontCode + '#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bottle:before {
+    content: "\e900";
+}
+
+.icon-calander:before {
+    content: "\e901";
+    color: #606060;
+}
+
+.icon-call:before {
+    content: "\e902";
+    color: #606060;
+}
+
+.icon-charger:before {
+    content: "\e903";
+}
+
+.icon-clock:before {
+    content: "\e904";
+    color: #606060;
+}
+
+.icon-cross:before {
+    content: "\e905";
+    color: #606060;
+}
+
+.icon-firstaid:before {
+    content: "\e906";
+}
+
+.icon-icon-download:before {
+    content: "\e907";
+    color: #4372b8;
+}
+
+.icon-icon-minus:before {
+    content: "\e908";
+    color: #928f8f;
+}
+
+.icon-info:before {
+    content: "\e909";
+    color: #606060;
+}
+
+.icon-left-arrow:before {
+    content: "\e90a";
+    color: #606060;
+}
+
+.icon-linkedin:before {
+    content: "\e90b";
+    color: #606161;
+}
+
+.icon-location:before {
+    content: "\e90c";
+    color: #606060;
+}
+
+.icon-long-arrow:before {
+    content: "\e90d";
+    color: #606060;
+}
+
+.icon-luggage:before {
+    content: "\e90e";
+}
+
+.icon-mail:before {
+    content: "\e90f";
+    color: #606161;
+}
+
+.icon-mute:before {
+    content: "\e910";
+}
+
+.icon-newspaper:before {
+    content: "\e911";
+}
+
+.icon-notification:before {
+    content: "\e912";
+}
+
+.icon-pause:before {
+    content: "\e913";
+}
+
+.icon-play:before {
+    content: "\e914";
+    color: #606060;
+}
+
+.icon-plus:before {
+    content: "\e915";
+    color: #606060;
+}
+
+.icon-right-arrow:before {
+    content: "\e916";
+    color: #606060;
+}
+
+.icon-skype:before {
+    content: "\e917";
+    color: #606161;
+}
+
+.icon-ss-airport:before {
+    content: "\e918";
+    color: #3a494e;
+}
+
+.icon-tick:before {
+    content: "\e919";
+}
+
+.icon-toilet:before {
+    content: "\e91a";
+}
+
+.icon-top-arrow:before {
+    content: "\e91b";
+}
+
+.icon-unmute:before {
+    content: "\e91c";
+}
+
+.icon-user:before {
+    content: "\e91d";
+}
+
+.icon-whatsapp:before {
+    content: "\e91e";
+    color: #606161;
+}
+
+.icon-wifi:before {
+    content: "\e91f";
+}
