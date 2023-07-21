@@ -1,7 +1,7 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../font/icon-font/icomoon.eot?ux975z");
-  src: url("../font/icon-font/icomoon.eot?ux975z#iefix") format("embedded-opentype"), url("../font/icon-font/icomoon.woff2?ux975z") format("woff2"), url("../font/icon-font/icomoon.ttf?ux975z") format("truetype"), url("../font/icon-font/icomoon.woff?ux975z") format("woff"), url("../font/icon-font/icomoon.svg?ux975z#icomoon") format("svg");
+  src: url("../font/icomoon.eot?ux975z");
+  src: url("../font/icomoon.eot?ux975z#iefix") format("embedded-opentype"), url("../font/icomoon.woff2?ux975z") format("woff2"), url("../font/icomoon.ttf?ux975z") format("truetype"), url("../font/icomoon.woff?ux975z") format("woff"), url("../font/icomoon.svg?ux975z#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -23,23 +23,19 @@
   content: "\e900"; }
 
 .icon-calander:before {
-  content: "\e901";
-  color: #606060; }
+  content: "\e901"; }
 
 .icon-call:before {
-  content: "\e902";
-  color: #606060; }
+  content: "\e902"; }
 
 .icon-charger:before {
   content: "\e903"; }
 
 .icon-clock:before {
-  content: "\e904";
-  color: #606060; }
+  content: "\e904"; }
 
 .icon-cross:before {
-  content: "\e905";
-  color: #606060; }
+  content: "\e905"; }
 
 .icon-firstaid:before {
   content: "\e906"; }
@@ -53,24 +49,20 @@
   color: #928f8f; }
 
 .icon-info:before {
-  content: "\e909";
-  color: #606060; }
+  content: "\e909"; }
 
 .icon-left-arrow:before {
-  content: "\e90a";
-  color: #606060; }
+  content: "\e90a"; }
 
 .icon-linkedin:before {
   content: "\e90b";
   color: #606161; }
 
 .icon-location:before {
-  content: "\e90c";
-  color: #606060; }
+  content: "\e90c"; }
 
 .icon-long-arrow:before {
-  content: "\e90d";
-  color: #606060; }
+  content: "\e90d"; }
 
 .icon-luggage:before {
   content: "\e90e"; }
@@ -92,16 +84,13 @@
   content: "\e913"; }
 
 .icon-play:before {
-  content: "\e914";
-  color: #606060; }
+  content: "\e914"; }
 
 .icon-plus:before {
-  content: "\e915";
-  color: #606060; }
+  content: "\e915"; }
 
 .icon-right-arrow:before {
-  content: "\e916";
-  color: #606060; }
+  content: "\e916"; }
 
 .icon-skype:before {
   content: "\e917";
@@ -157,9 +146,13 @@ p {
 a {
   text-decoration: none; }
 
-ul,
-li {
-  list-style-type: none; }
+ul.ul-list {
+  margin: 0;
+  padding: 0; }
+  ul.ul-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
 
 /*Padding CSS*/
 .first-padding {
@@ -203,5 +196,128 @@ li {
       background-color: white; }
 
 /* === Common CSS start Here ===*/
+header {
+  padding: 15px 0;
+  background-color: #181717; }
+  header .menu-text ul.navigation-menu {
+    text-align: right; }
+    header .menu-text ul.navigation-menu li {
+      display: inline-block;
+      margin-left: 20px;
+      vertical-align: middle; }
+      header .menu-text ul.navigation-menu li:first-child {
+        margin-left: 0; }
+      header .menu-text ul.navigation-menu li a {
+        text-decoration: none;
+        color: white; }
+        header .menu-text ul.navigation-menu li a.hamburger-menu {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          text-align: left;
+          position: relative;
+          z-index: 9000;
+          padding: 0; }
+          header .menu-text ul.navigation-menu li a.hamburger-menu span {
+            width: 30px;
+            height: 2px;
+            background-color: #0fc500;
+            transition: all 0.5s ease;
+            display: inline-block;
+            border-radius: 10px;
+            position: relative; }
+            header .menu-text ul.navigation-menu li a.hamburger-menu span:before {
+              position: absolute;
+              content: "";
+              top: -7px;
+              left: 0;
+              width: 30px;
+              height: 2px;
+              background-color: #a4a3a3;
+              transition: all 0.5s ease;
+              display: inline-block;
+              border-radius: 10px; }
+            header .menu-text ul.navigation-menu li a.hamburger-menu span:after {
+              position: absolute;
+              content: "";
+              top: 7px;
+              left: 0;
+              width: 30px;
+              height: 2px;
+              background-color: #3479f2;
+              transition: all 0.5s ease;
+              display: inline-block;
+              border-radius: 10px; }
+          header .menu-text ul.navigation-menu li a.hamburger-menu.close span {
+            transform: rotate(45deg);
+            background-color: white; }
+            header .menu-text ul.navigation-menu li a.hamburger-menu.close span:before {
+              display: none; }
+            header .menu-text ul.navigation-menu li a.hamburger-menu.close span:after {
+              top: 0;
+              transform: rotate(-90deg);
+              background-color: white; }
+      header .menu-text ul.navigation-menu li ul#toggleMenuItem {
+        position: fixed;
+        background-color: #181717;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 500;
+        padding-left: 200px;
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+        transition: all 0.5s ease; }
+        header .menu-text ul.navigation-menu li ul#toggleMenuItem li {
+          display: block;
+          text-align: left;
+          margin-bottom: 30px; }
+          header .menu-text ul.navigation-menu li ul#toggleMenuItem li a {
+            display: inline-block;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #585858;
+            transition: all 0.5s ease; }
+            header .menu-text ul.navigation-menu li ul#toggleMenuItem li a:hover, header .menu-text ul.navigation-menu li ul#toggleMenuItem li a.active {
+              font-weight: 700;
+              font-size: 40px;
+              color: #fff; }
+              header .menu-text ul.navigation-menu li ul#toggleMenuItem li a:hover span.icon-long-arrow, header .menu-text ul.navigation-menu li ul#toggleMenuItem li a.active span.icon-long-arrow {
+                display: inline-block;
+                color: #3479f2;
+                margin-left: 15px; }
+            header .menu-text ul.navigation-menu li ul#toggleMenuItem li a:hover {
+              font-weight: 500; }
+            header .menu-text ul.navigation-menu li ul#toggleMenuItem li a span.number {
+              font-size: 10px;
+              margin-right: 10px;
+              color: #585858; }
+            header .menu-text ul.navigation-menu li ul#toggleMenuItem li a span.icon-long-arrow {
+              display: none; }
+          header .menu-text ul.navigation-menu li ul#toggleMenuItem li.mshow {
+            display: none; }
+          header .menu-text ul.navigation-menu li ul#toggleMenuItem li ul.bottom-menu {
+            margin-top: 50px;
+            width: 490px; }
+            header .menu-text ul.navigation-menu li ul#toggleMenuItem li ul.bottom-menu li {
+              display: inline-block;
+              margin-left: 0;
+              margin-right: 30px;
+              margin-bottom: 10px; }
+              header .menu-text ul.navigation-menu li ul#toggleMenuItem li ul.bottom-menu li a {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffffe0; }
+                header .menu-text ul.navigation-menu li ul#toggleMenuItem li ul.bottom-menu li a:hover {
+                  color: #0fc500;
+                  font-weight: 400; }
+        header .menu-text ul.navigation-menu li ul#toggleMenuItem.show {
+          display: block; }
+        header .menu-text ul.navigation-menu li ul#toggleMenuItem.d_visible {
+          opacity: 1;
+          visibility: visible; }
 
 /*# sourceMappingURL=style.css.map */

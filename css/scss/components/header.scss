@@ -1,3 +1,170 @@
-header{
-  
+header {
+  padding: 15px 0;
+  background-color: $dark-gray;
+  .menu-text {
+    ul {
+      &.navigation-menu {
+        text-align: right;
+        li {
+          display: inline-block;
+          margin-left: 20px;
+          vertical-align: middle;
+          &:first-child {
+            margin-left: 0;
+          }
+
+          a {
+            text-decoration: none;
+            color: white;
+            &.hamburger-menu {
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              text-align: left;
+              position: relative;
+              z-index: 9000;
+              padding: 0;
+              span {
+                width: 30px;
+                height: 2px;
+                background-color: $green;
+                transition: all 0.5s ease;
+                display: inline-block;
+                border-radius: 10px;
+                position: relative;
+                &:before {
+                  position: absolute;
+                  content: "";
+                  top: -7px;
+                  left: 0;
+                  width: 30px;
+                  height: 2px;
+                  background-color: $gray;
+                  transition: all 0.5s ease;
+                  display: inline-block;
+                  border-radius: 10px;
+                }
+                &:after {
+                  position: absolute;
+                  content: "";
+                  top: 7px;
+                  left: 0;
+                  width: 30px;
+                  height: 2px;
+                  background-color: $blue;
+                  transition: all 0.5s ease;
+                  display: inline-block;
+                  border-radius: 10px;
+                }
+              }
+              &.close {
+                span {
+                  transform: rotate(45deg);
+                  background-color: white;
+                  &:before {
+                    display: none;
+                  }
+                  &:after {
+                    top: 0;
+                    transform: rotate(-90deg);
+                    background-color: white;
+                  }
+                }
+              }
+            }
+          }
+
+          ul {
+            &#toggleMenuItem {
+              position: fixed;
+              background-color: $dark-gray;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              z-index: 500;
+              padding-left: 200px;
+              opacity: 0;
+              display: none;
+              visibility: hidden;
+              transition: all 0.5s ease;
+              li {
+                display: block;
+                text-align: left;
+                margin-bottom: 30px;
+                a {
+                  display: inline-block;
+                  font-weight: 400;
+                  font-size: 24px;
+                  text-transform: uppercase;
+                  color: #585858;
+                  transition: all 0.5s ease;
+                  &:hover,
+                  &.active {
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: #fff;
+                    span {
+                      &.icon-long-arrow {
+                        display: inline-block;
+                        color: $blue;
+                        margin-left: 15px;
+                      }
+                    }
+                  }
+                  &:hover {
+                    font-weight: 500;
+                  }
+                  span {
+                    &.number {
+                      font-size: 10px;
+                      margin-right: 10px;
+                      color: #585858;
+                    }
+                  }
+                  span {
+                    &.icon-long-arrow {
+                      display: none;
+                    }
+                  }
+                }
+                &.mshow {
+                  display: none;
+                }
+
+                ul {
+                  &.bottom-menu {
+                    margin-top: 50px;
+                    width: 490px;
+                    li {
+                      display: inline-block;
+                      margin-left: 0;
+                      margin-right: 30px;
+                      margin-bottom: 10px;
+                      a {
+                        font-size: 16px;
+                        text-transform: capitalize;
+                        color: #ffffffe0;
+                        &:hover {
+                          color: $green;
+                          font-weight: 400;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              &.show {
+                display: block;
+              }
+              &.d_visible {
+                opacity: 1;
+                visibility: visible;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
