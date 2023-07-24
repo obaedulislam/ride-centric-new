@@ -140,6 +140,24 @@ h2 {
 h3 {
   font-size: 28px; }
 
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 20px; }
+
+.heading-before {
+  position: relative;
+  text-transform: uppercase; }
+  .heading-before::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 60%;
+    top: 20%;
+    left: 0;
+    background-color: #0fc500; }
+
 p {
   font-size: 20px; }
 
@@ -174,7 +192,7 @@ ul.ul-list {
 /* Button CSS */
 .button {
   padding: 13px 28px;
-  border-radius: 50px;
+  border-radius: 100px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
@@ -188,7 +206,8 @@ ul.ul-list {
     background-color: #0fc500;
     border: 2px solid #0fc500; }
     .button.primary-button:hover {
-      background-color: white; }
+      background-color: white;
+      color: #0fc500; }
   .button.secondary-button {
     background-color: #3479f2;
     border: 2px solid #3479f2; }
@@ -217,7 +236,9 @@ header {
           text-align: left;
           position: relative;
           z-index: 9000;
-          padding: 0; }
+          padding: 0;
+          display: flex;
+          align-items: center; }
           header .menu-text ul.navigation-menu li a.hamburger-menu span {
             width: 30px;
             height: 2px;
@@ -319,5 +340,87 @@ header {
         header .menu-text ul.navigation-menu li ul#toggleMenuItem.d_visible {
           opacity: 1;
           visibility: visible; }
+
+/** == Banner Section CSS Start == **/
+.banner-section {
+  /* Booking Form Start */ }
+  .banner-section .banner-slides .banner-bg {
+    height: calc(100vh - 63px);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .banner-section .form-container {
+    margin-top: -100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end; }
+    .banner-section .form-container .booking-form {
+      width: 500px;
+      padding: 30px;
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+      z-index: 0; }
+      .banner-section .form-container .booking-form .form-text h5 {
+        color: white;
+        padding-left: 20px; }
+      .banner-section .form-container .booking-form .booking-navigation-tab {
+        display: flex;
+        align-items: center;
+        margin: 25px 0; }
+        .banner-section .form-container .booking-form .booking-navigation-tab .nav-tab-btn {
+          background-color: #1c1c1c;
+          padding: 10px;
+          border-radius: 100px; }
+          .banner-section .form-container .booking-form .booking-navigation-tab .nav-tab-btn a {
+            height: unset;
+            padding: 10px 10px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-size: 13px;
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: 700;
+            border: 2px solid #0fc500;
+            outline: none;
+            min-width: 130px;
+            min-height: 40px;
+            max-height: 50px;
+            text-align: center;
+            background: #0e101c;
+            color: white;
+            transition: 0.4s; }
+            .banner-section .form-container .booking-form .booking-navigation-tab .nav-tab-btn a:first-child {
+              margin-right: 10px; }
+            .banner-section .form-container .booking-form .booking-navigation-tab .nav-tab-btn a.active {
+              border: none; }
+        .banner-section .form-container .booking-form .booking-navigation-tab .information-icon {
+          margin-left: 30px; }
+          .banner-section .form-container .booking-form .booking-navigation-tab .information-icon .car-info-icon .icon-info {
+            color: white; }
+      .banner-section .form-container .booking-form .form-input form {
+        display: flex;
+        align-items: center;
+        color: white; }
+        .banner-section .form-container .booking-form .form-input form span.icon {
+          position: absolute; }
+        .banner-section .form-container .booking-form .form-input form input {
+          padding: 8px 8px 8px 30px;
+          width: 100%;
+          background-color: transparent;
+          border-radius: 0;
+          border-bottom: 1px solid white;
+          border-top: 0;
+          border-right: 0;
+          border-left: 0;
+          outline: 0;
+          font-size: 14px;
+          color: white; }
+          .banner-section .form-container .booking-form .form-input form input::placeholder {
+            text-transform: capitalize;
+            color: white; }
+          .banner-section .form-container .booking-form .form-input form input:focus {
+            background-color: transparent; }
+
+/** == Banner Section CSS End == **/
 
 /*# sourceMappingURL=style.css.map */

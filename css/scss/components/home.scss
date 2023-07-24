@@ -1,0 +1,108 @@
+/** == Banner Section CSS Start == **/
+.banner-section {
+  .banner-slides {
+    .banner-bg {
+      height: calc(100vh - 63px);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  /* Booking Form Start */
+  .form-container {
+    margin-top: -100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    .booking-form {
+      width: 500px;
+      padding: 30px;
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+      z-index: 0;
+      .form-text {
+        h5 {
+          color: white;
+          padding-left: 20px;
+        }
+      }
+      .booking-navigation-tab {
+        display: flex;
+        align-items: center;
+        margin: 25px 0;
+        .nav-tab-btn {
+          background-color: rgba(28, 28, 28, 1);
+          padding: 10px;
+          border-radius: 100px;
+          a {
+            height: unset;
+            padding: 10px 10px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-size: 13px;
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: 700;
+            border: 2px solid $green;
+            outline: none;
+            min-width: 130px;
+            min-height: 40px;
+            max-height: 50px;
+            text-align: center;
+            background: rgba(14, 16, 28, 1);
+            color: white;
+            transition: 0.4s;
+            &:first-child {
+              margin-right: 10px;
+            }
+            &.active {
+              border: none;
+            }
+          }
+        }
+        .information-icon {
+          margin-left: 30px;
+          .car-info-icon {
+            .icon-info {
+              color: white;
+            }
+          }
+        }
+      }
+      .form-input {
+        form {
+          display: flex;
+          align-items: center;
+          color: white;
+          span {
+            &.icon {
+              position: absolute;
+            }
+          }
+          input {
+            padding: 8px 8px 8px 30px;
+            width: 100%;
+            background-color: transparent;
+            border-radius: 0;
+            border-bottom: 1px solid white;
+            border-top: 0;
+            border-right: 0;
+            border-left: 0;
+            outline: 0;
+            font-size: 14px;
+            color: white;
+            &::placeholder {
+              text-transform: capitalize;
+              color: white;
+            }
+            &:focus {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/** == Banner Section CSS End == **/

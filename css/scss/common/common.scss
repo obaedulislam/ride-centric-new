@@ -16,6 +16,25 @@ h2 {
 h3 {
   font-size: 28px;
 }
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+.heading-before {
+  position: relative;
+  text-transform: uppercase;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 60%;
+    top: 20%;
+    left: 0;
+    background-color: $green;
+  }
+}
 p {
   font-size: 20px;
 }
@@ -53,7 +72,7 @@ ul.ul-list {
 /* Button CSS */
 .button {
   padding: 13px 28px;
-  border-radius: 50px;
+  border-radius: 100px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
@@ -68,6 +87,7 @@ ul.ul-list {
     border: 2px solid $green;
     &:hover {
       background-color: white;
+      color: $green;
     }
   }
   &.secondary-button {
