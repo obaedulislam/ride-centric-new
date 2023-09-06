@@ -393,10 +393,67 @@ header {
               margin-right: 10px; }
             .banner-section .form-container .booking-form .booking-navigation-tab .nav-tab-btn a.active {
               border: none; }
-        .banner-section .form-container .booking-form .booking-navigation-tab .information-icon {
-          margin-left: 30px; }
-          .banner-section .form-container .booking-form .booking-navigation-tab .information-icon .car-info-icon .icon-info {
-            color: white; }
+        .banner-section .form-container .booking-form .booking-navigation-tab .car-info a {
+          color: white;
+          margin-left: 15px;
+          transition: 0.4s; }
+          .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information {
+            display: none;
+            background-color: white;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            z-index: 10;
+            top: 20%;
+            right: 200px; }
+            .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information h3 {
+              padding-left: 20px;
+              color: black; }
+            .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car {
+              display: grid;
+              grid-template-columns: repeat(5, 20%); }
+              .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car {
+                text-align: center; }
+                .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .car-img {
+                  padding: 0 20px;
+                  position: relative; }
+                  .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .car-img img {
+                    width: 100%; }
+                  .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .car-img::after {
+                    content: "";
+                    position: absolute;
+                    width: 2px;
+                    right: 0;
+                    height: 100%;
+                    background-color: #a4a3a3; }
+                .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car h5 {
+                  color: black; }
+                .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .facility {
+                  text-align: center; }
+                  .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .facility p {
+                    color: black;
+                    text-align: center;
+                    margin: 0; }
+                    .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .facility p img {
+                      width: 16px; }
+                    .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .facility p span {
+                      font-size: 16px;
+                      vertical-align: middle; }
+                    .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .facility p:first-child {
+                      margin-right: 10px;
+                      position: relative; }
+                      .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .facility p:first-child::after {
+                        content: "";
+                        width: 2px;
+                        height: 16px;
+                        background-color: #a4a3a3;
+                        position: absolute;
+                        top: 7px;
+                        right: -8px; }
+                    .banner-section .form-container .booking-form .booking-navigation-tab .car-info a .popup-information .all-car .single-car .facility p:last-child {
+                      margin-right: 10px; }
+          .banner-section .form-container .booking-form .booking-navigation-tab .car-info a:hover .popup-information {
+            display: block; }
       .banner-section .form-container .booking-form .form-input form {
         display: flex;
         align-items: center;

@@ -30,23 +30,116 @@
                                         <a class="tab-item " href="#">One Way</a>
                                         <a class="tab-item active" href="#">Hourly</a>
                                     </div>
-                                    <div class="information-icon">
-                                        <a class="car-info-icon" href="javascript:void(0)">
-                                            <span class="icon-info"></span>
-                                            <!-- <div class="row popup-car-info">
-                                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <div class="info">
-                                                        <h3 class="info-title">
-                                                        TOP <strong>10 Choices</strong>
-                                                        </h3>
-                                                        <div class="all-car" >
-                                                            <div class="single-car" id = "singleCarContainer" >
-                                                                
+                                        <div class="car-info">
+                                        <a  href="javascript:void(0)" class="popup-icon-ref">
+                                            <i class="icon-info"></i>
+                                            <div class="row popup-information">
+                                                <div class="col-12">
+                                                    <h3 class="heading-before">Top <strong>10 Choices</strong></h3>
+                                                    <div class="all-car">
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-car">
+                                                            <div class="car-img">
+                                                                <img src="images/fleet-exhibit/car-image/sedan/cadillac-cts/cadillac-cts.webp" alt="">
+                                                            </div>
+                                                            <h5>Cadillac CTS</h5>
+                                                            <div class="facility d-flex justify-content-center">
+                                                                <p><img src="images/fleet-exhibit/icons/user.svg" alt=""><span>3</span></p>
+                                                                <p><img src="images/fleet-exhibit/icons/luggage.svg" alt=""><span>4</span></p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> -->
+                                            </div>
                                         </a>
                                     </div>
                                 </div>
